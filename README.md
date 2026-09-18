@@ -7,10 +7,12 @@ A public collection of lightweight Python scripts and tools designed for biologi
 - **`at_content_calculator.py`**: Calculates the percentage of Adenine and Thymine bases in a target DNA sequence.
 - **`gc_content_calculator.py`**: Parses a list of DNA sequences, calculates GC content ratios, and filters for high-GC regions (>50%).
 - **`read_dna_file.py`**: Processes external biological sequence files (`dna.txt`) line-by-line using safe File I/O (`with open`), calculates GC content, and strips formatting artifacts.
+- **`fasta_parser.py`**: Parses structured FASTA format files (`sequence.fasta`), separating sequence header tags (`>`) from biological sequence data to calculate per-header GC metrics.
 
 ## 📁 Sample Data
 
 - **`dna.txt`**: Raw sequence input file for line-by-line parsing demonstrations.
+- **`sequence.fasta`**: Structured FASTA file containing header metadata and DNA sequences.
 
 ## 🚀 How to Run
 
