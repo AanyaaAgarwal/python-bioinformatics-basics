@@ -6,6 +6,11 @@ A public collection of lightweight Python scripts and tools designed for biologi
 
 - **`at_content_calculator.py`**: Calculates the percentage of Adenine and Thymine bases in a target DNA sequence.
 - **`gc_content_calculator.py`**: Parses a list of DNA sequences, calculates GC content ratios, and filters for high-GC regions (>50%).
+- **`read_dna_file.py`**: Processes external biological sequence files (`dna.txt`) line-by-line using safe File I/O (`with open`), calculates GC content, and strips formatting artifacts.
+
+## 📁 Sample Data
+
+- **`dna.txt`**: Raw sequence input file for line-by-line parsing demonstrations.
 
 ## 🚀 How to Run
 
