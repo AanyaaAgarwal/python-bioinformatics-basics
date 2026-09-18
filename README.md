@@ -16,4 +16,4 @@ A public collection of lightweight Python scripts and tools designed for biologi
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/AanyaaAgarwal/python-bioinformatics-basics.git](https://github.com/AanyaaAgarwal/python-bioinformatics-basics.git)
+  git clone https://github.com/AanyaaAgarwal/python-bioinformatics-basics.git
